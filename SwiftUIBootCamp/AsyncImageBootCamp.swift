@@ -12,7 +12,14 @@ struct AsyncImageBootCamp: View {
     let url = URL(string: "https://picsum.photos/350")
     
     var body: some View {
-        AsyncImage(url: url)
+//        AsyncImage(url: url)
+        AsyncImage(url: url) { downloadedImage in
+            downloadedImage
+        } placeholder: {
+            ProgressView()
+        }
+        .frame(width: 100, height: 100)
+
     }
 }
 
