@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78597E482B3E5FA3002F33B2 /* BackgroundMaterealBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78597E472B3E5FA3002F33B2 /* BackgroundMaterealBootcamp.swift */; };
 		7885EE092B3C43BE002810BC /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7885EE082B3C43BE002810BC /* IntroView.swift */; };
 		7885EE0B2B3C4A96002810BC /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7885EE0A2B3C4A95002810BC /* OnBoardingView.swift */; };
 		7885EE0D2B3C5656002810BC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7885EE0C2B3C5656002810BC /* ProfileView.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78597E472B3E5FA3002F33B2 /* BackgroundMaterealBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterealBootcamp.swift; sourceTree = "<group>"; };
 		7885EE082B3C43BE002810BC /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		7885EE0A2B3C4A95002810BC /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		7885EE0C2B3C5656002810BC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				78D780F62B3A7A62009AC0C1 /* Preview Content */,
 				78D780FE2B3A7A87009AC0C1 /* AppStorageBootCamp.swift */,
 				78A3D4FC2B3D155300C24B25 /* AsyncImageBootCamp.swift */,
+				78597E472B3E5FA3002F33B2 /* BackgroundMaterealBootcamp.swift */,
 			);
 			path = SwiftUIBootCamp;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				78D780FF2B3A7A87009AC0C1 /* AppStorageBootCamp.swift in Sources */,
 				7885EE0B2B3C4A96002810BC /* OnBoardingView.swift in Sources */,
 				7885EE0D2B3C5656002810BC /* ProfileView.swift in Sources */,
+				78597E482B3E5FA3002F33B2 /* BackgroundMaterealBootcamp.swift in Sources */,
 				78D780F12B3A7A60009AC0C1 /* SwiftUIBootCampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
