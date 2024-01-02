@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7848D9582B43B55A00CD052E /* BadgeBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7848D9572B43B55A00CD052E /* BadgeBootCamp.swift */; };
 		78597E482B3E5FA3002F33B2 /* BackgroundMaterealBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78597E472B3E5FA3002F33B2 /* BackgroundMaterealBootcamp.swift */; };
 		78597E4A2B3E6A27002F33B2 /* TextSelectionBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78597E492B3E6A27002F33B2 /* TextSelectionBootCamp.swift */; };
 		78597E4C2B3E6ABA002F33B2 /* ButtonStylesBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78597E4B2B3E6ABA002F33B2 /* ButtonStylesBootCamp.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7848D9572B43B55A00CD052E /* BadgeBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBootCamp.swift; sourceTree = "<group>"; };
 		78597E472B3E5FA3002F33B2 /* BackgroundMaterealBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterealBootcamp.swift; sourceTree = "<group>"; };
 		78597E492B3E6A27002F33B2 /* TextSelectionBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionBootCamp.swift; sourceTree = "<group>"; };
 		78597E4B2B3E6ABA002F33B2 /* ButtonStylesBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylesBootCamp.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				78597E492B3E6A27002F33B2 /* TextSelectionBootCamp.swift */,
 				78597E4B2B3E6ABA002F33B2 /* ButtonStylesBootCamp.swift */,
 				78B913302B4272FB00EBCC77 /* LiseSwipeActionBootcamp.swift */,
+				7848D9572B43B55A00CD052E /* BadgeBootCamp.swift */,
 			);
 			path = SwiftUIBootCamp;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			files = (
 				78D780F32B3A7A60009AC0C1 /* ContentView.swift in Sources */,
 				78A3D4FD2B3D155300C24B25 /* AsyncImageBootCamp.swift in Sources */,
+				7848D9582B43B55A00CD052E /* BadgeBootCamp.swift in Sources */,
 				7885EE092B3C43BE002810BC /* IntroView.swift in Sources */,
 				78597E4A2B3E6A27002F33B2 /* TextSelectionBootCamp.swift in Sources */,
 				78B913312B4272FB00EBCC77 /* LiseSwipeActionBootcamp.swift in Sources */,
