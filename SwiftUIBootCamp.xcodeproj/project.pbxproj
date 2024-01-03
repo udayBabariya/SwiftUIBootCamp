@@ -23,6 +23,7 @@
 		78D780F82B3A7A62009AC0C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D780F72B3A7A62009AC0C1 /* Preview Assets.xcassets */; };
 		78D780FF2B3A7A87009AC0C1 /* AppStorageBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D780FE2B3A7A87009AC0C1 /* AppStorageBootCamp.swift */; };
 		78E3F43C2B44FDFB00A3FE77 /* SubmitTextFieldBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E3F43B2B44FDFB00A3FE77 /* SubmitTextFieldBootCamp.swift */; };
+		78E3F43E2B4501DB00A3FE77 /* NavigationStackBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E3F43D2B4501DB00A3FE77 /* NavigationStackBootCamp.swift */; };
 		78FF24452B441D8F006F18B5 /* CardFlipAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FF24442B441D8F006F18B5 /* CardFlipAnimation.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		78D780F72B3A7A62009AC0C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		78D780FE2B3A7A87009AC0C1 /* AppStorageBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageBootCamp.swift; sourceTree = "<group>"; };
 		78E3F43B2B44FDFB00A3FE77 /* SubmitTextFieldBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitTextFieldBootCamp.swift; sourceTree = "<group>"; };
+		78E3F43D2B4501DB00A3FE77 /* NavigationStackBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackBootCamp.swift; sourceTree = "<group>"; };
 		78FF24442B441D8F006F18B5 /* CardFlipAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlipAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +104,7 @@
 				7848D9592B43B71700CD052E /* FocusStateBootCamp.swift */,
 				78FF24442B441D8F006F18B5 /* CardFlipAnimation.swift */,
 				78E3F43B2B44FDFB00A3FE77 /* SubmitTextFieldBootCamp.swift */,
+				78E3F43D2B4501DB00A3FE77 /* NavigationStackBootCamp.swift */,
 			);
 			path = SwiftUIBootCamp;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				78E3F43C2B44FDFB00A3FE77 /* SubmitTextFieldBootCamp.swift in Sources */,
 				78D780F32B3A7A60009AC0C1 /* ContentView.swift in Sources */,
 				7848D95A2B43B71700CD052E /* FocusStateBootCamp.swift in Sources */,
+				78E3F43E2B4501DB00A3FE77 /* NavigationStackBootCamp.swift in Sources */,
 				78A3D4FD2B3D155300C24B25 /* AsyncImageBootCamp.swift in Sources */,
 				7848D9582B43B55A00CD052E /* BadgeBootCamp.swift in Sources */,
 				7885EE092B3C43BE002810BC /* IntroView.swift in Sources */,
