@@ -10,19 +10,28 @@ import SwiftUI
 struct NavigationStackBootCamp: View {
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ScrollView {
                 VStack(spacing: 40) {
                     ForEach(0..<10) { x in
-                        NavigationLink(destination: {
-                           mySecondScreen(value: x)
-                        }, label: {
-                            Text("Click me : \(x)")
-                        })
+                        
+                        
+                        NavigationLink(value: x) {
+                            Text("Lazy Click me: \(x)")
+                        }
+                        
+//                        NavigationLink(destination: {
+//                           mySecondScreen(value: x)
+//                        }, label: {
+//                            Text("Click me : \(x)")
+//                        })
                     }
                 }
             }
             .navigationTitle("Nav BootCamp")
+            .navigationDestination(for: Int.self) { value in
+                mySecondScreen(value: value)
+            }
         }
     }
 }
