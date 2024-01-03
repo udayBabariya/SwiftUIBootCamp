@@ -9,13 +9,21 @@ import SwiftUI
 
 struct NavigationStackBootCamp: View {
     
+    let fruits:  [String] = ["Apple", "Orange", "Banana"]
+    
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(spacing: 40) {
+                    
+                    ForEach(fruits, id: \.self) { fruit in
+                        NavigationLink(value: fruit) {
+                            Text("Fruits : \(fruit)")
+                        }
+                    }
+                    
+                    
                     ForEach(0..<10) { x in
-                        
-                        
                         NavigationLink(value: x) {
                             Text("Lazy Click me: \(x)")
                         }
@@ -31,6 +39,9 @@ struct NavigationStackBootCamp: View {
             .navigationTitle("Nav BootCamp")
             .navigationDestination(for: Int.self) { value in
                 mySecondScreen(value: value)
+            }
+            .navigationDestination(for: String.self){ value in
+               Text("Another screen: \(value)")
             }
         }
     }
