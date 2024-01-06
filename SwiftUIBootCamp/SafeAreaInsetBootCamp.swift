@@ -15,12 +15,17 @@ struct SafeAreaInsetBootCamp: View {
                     .frame(height: 300)
             }
             .navigationTitle("Safe Area Insets")
-            .overlay(
-            Text("Hi")
-                .frame(maxWidth: .infinity)
-                .background(Color.yellow)
-            , alignment: .bottom
-            )
+//            .overlay(
+//            Text("Hi")
+//                .frame(maxWidth: .infinity)
+//                .background(Color.yellow)
+//            , alignment: .bottom
+//            )
+            .safeAreaInset(edge: .bottom, alignment: .center) {
+                Text("Hi")
+                    .frame(maxWidth: .infinity)
+                    .background(Color.yellow)
+            }
         }
     }
 }
