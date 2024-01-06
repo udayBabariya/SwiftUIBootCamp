@@ -21,10 +21,13 @@ struct SafeAreaInsetBootCamp: View {
 //                .background(Color.yellow)
 //            , alignment: .bottom
 //            )
-            .safeAreaInset(edge: .bottom, alignment: .center) {
+            .safeAreaInset(edge: .bottom, alignment: .trailing) {
                 Text("Hi")
-                    .frame(maxWidth: .infinity)
+//                    .frame(maxWidth: .infinity)
+                    .padding()
                     .background(Color.yellow)
+                    .clipShape(.circle)
+                    .padding()
             }
         }
     }
