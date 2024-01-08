@@ -34,7 +34,8 @@ struct AnumationUpdatedBootcamp: View {
                 .background(Color.red)
             }
         }
-        .animation(.spring)
+        .animation(.spring, value: animate1)
+        .animation(.linear(duration: 5), value: animate2)
     }
 }
 
