@@ -15,10 +15,12 @@ struct NatvePopoverBootCamp: View {
         Button("Click me") {
             showPopover = true
         }
-        .popover(isPresented: $showPopover, content: {
+        .padding(20)
+        .background(Color.yellow)
+        .popover(isPresented: $showPopover, attachmentAnchor: .point(.trailing), arrowEdge: .leading) {
             Text("Hello")
                 .presentationCompactAdaptation(.popover)
-        })
+        }
     }
 }
 
