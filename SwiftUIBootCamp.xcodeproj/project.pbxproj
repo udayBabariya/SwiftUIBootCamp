@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78444FE92B511307009B78BE /* NatvePopoverBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78444FE82B511307009B78BE /* NatvePopoverBootCamp.swift */; };
 		7848D9582B43B55A00CD052E /* BadgeBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7848D9572B43B55A00CD052E /* BadgeBootCamp.swift */; };
 		7848D95A2B43B71700CD052E /* FocusStateBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7848D9592B43B71700CD052E /* FocusStateBootCamp.swift */; };
 		78597E482B3E5FA3002F33B2 /* BackgroundMaterealBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78597E472B3E5FA3002F33B2 /* BackgroundMaterealBootcamp.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78444FE82B511307009B78BE /* NatvePopoverBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatvePopoverBootCamp.swift; sourceTree = "<group>"; };
 		7848D9572B43B55A00CD052E /* BadgeBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBootCamp.swift; sourceTree = "<group>"; };
 		7848D9592B43B71700CD052E /* FocusStateBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateBootCamp.swift; sourceTree = "<group>"; };
 		78597E472B3E5FA3002F33B2 /* BackgroundMaterealBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterealBootcamp.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				7894D2B02B49AA2600581474 /* GroupBootCamp.swift */,
 				78E5D5A92B4B9D69001DB12A /* AnumationUpdatedBootcamp.swift */,
 				78E5D5AB2B4BA14F001DB12A /* MenuBootcamp.swift */,
+				78444FE82B511307009B78BE /* NatvePopoverBootCamp.swift */,
 			);
 			path = SwiftUIBootCamp;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				78D780F32B3A7A60009AC0C1 /* ContentView.swift in Sources */,
 				7848D95A2B43B71700CD052E /* FocusStateBootCamp.swift in Sources */,
 				78E3F43E2B4501DB00A3FE77 /* NavigationStackBootCamp.swift in Sources */,
+				78444FE92B511307009B78BE /* NatvePopoverBootCamp.swift in Sources */,
 				78A3D4FD2B3D155300C24B25 /* AsyncImageBootCamp.swift in Sources */,
 				78E5D5AC2B4BA14F001DB12A /* MenuBootcamp.swift in Sources */,
 				7848D9582B43B55A00CD052E /* BadgeBootCamp.swift in Sources */,
