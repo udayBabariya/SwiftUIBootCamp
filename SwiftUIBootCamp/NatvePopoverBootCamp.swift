@@ -10,6 +10,10 @@ import SwiftUI
 struct NatvePopoverBootCamp: View {
     
     @State private var showPopover: Bool = false
+    @State private var feedbackOptions: [String] = [
+        "Good",
+        "Average",
+        "Bad"]
     
     var body: some View {
         Button("Click me") {
@@ -18,7 +22,18 @@ struct NatvePopoverBootCamp: View {
         .padding(20)
         .background(Color.yellow)
         .popover(isPresented: $showPopover, attachmentAnchor: .point(.trailing), arrowEdge: .leading) {
-            Text("Hello")
+            VStack{
+                ForEach(feedbackOptions, id: \.self) { option in
+                    Button(option) {
+                        
+                    }
+                    
+                    if option != feedbackOptions.last {
+                        Divider()
+                    }
+                }
+            }
+            .padding(20)
                 .presentationCompactAdaptation(.popover)
         }
     }
